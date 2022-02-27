@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta name="keywords" content="Quiz">
+    <meta name="description" content= "Quiz, knowledge, categories, world">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content= "IE=edge,chrome=1">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header> <a href="index.html"> <strong>QUIZ</strong> </a></header>
+    <main>
+        <div class="playerName">
+            Wpisz swoje imie i rozpocznij QUIZ: <br><br>
+            <input type="text" name="Your Name" class="name">
+        </div>
+        <div class="categories">
+            Wybierz kategorie: <br><br>
+            <select id='mySelect'>
+                <option value='math'>Matematyka</option>
+                <option value='film'>Film</option>
+                <option value='music'>Muzyka</option>
+            </select>
+              
+        </div>
+        <button type="button" class="start">Start!</button>
+        <div class='math-questions'>
+            <h1>Pytanie 1. Wskaż, który wzór opisuje twierdzenie Pitagorasa:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice1" name="math1" value="a">
+                    <label for="answer1Choice1">a) a^{2}+b^{2}=c^{2}.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice2" name="math1" value="b">
+                    <label for="answer1Choice2">b) E=mc^{2}</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice3" name="math1" value="c">
+                    <label for="answer1Choice3">c) P=a*b</label></div>
+            </div>
+
+            <h1>Pytanie 2. Wskaż rozwiązanie równania 3x-5=2x-7: </h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice1" name="math2" value="a">
+                    <label for="answer2Choice1">x=2</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice2" name="math2" value="b">
+                    <label for="answer2Choice2">x=7</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice3" name="math2" value="c">
+                    <label for="answer2Choice3">x=-2</label></div>
+            </div>
+
+            <h1>Pytanie 3. Wskaż ile osób pozytywnie zdało egzamin na prawo jazdy, jeżeli zdało 13% z 200 osób.:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice1" name="math3" value="a">
+                    <label for="answer3Choice1">26 osób.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice2" name="math3" value="b">
+                    <label for="answer3Choice2">13 osób.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice3" name="math3" value="c">
+                    <label for="answer3Choice3">10 osób.</label></div>
+            </div>
+            <h1>Pytanie 4. Ile wynosi kwota wolna od podatku za 2022 rok?</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice1" name="math4" value="a">
+                    <label for="answer4Choice1">8000zł</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice2" name="math4" value="b">
+                    <label for="answer4Choice2">30000zł</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice3" name="math4" value="c">
+                    <label for="answer4Choice3">5100zł</label></div>
+            </div>
+
+            <h1>Pytanie 5. Wskaż ile to 6 arów:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice1" name="math5" value="a">
+                    <label for="answer5Choice1">6000 [m2]</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice2" name="math5" value="b">
+                    <label for="answer5Choice2">6 [ha]</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice3" name="math5" value="c">
+                    <label for="answer5Choice3">600 [m2]</label></div>
+            </div>
+        </div>
+        <div class='film-questions'>
+            <h1>Pytanie 1. Wskaż film w którym główną rolę zagrał Alan Rickman:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice1F" name="film1" value="a">
+                    <label for="answer1Choice1F">Rasputin</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice2F" name="film1" value="b">
+                    <label for="answer1Choice2F">Robin Hood - ksąże złodziei</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice3F" name="film1" value="c">
+                    <label for="answer1Choice3F">Harry Potter i komnata tajemnic.</label></div>
+            </div>
+
+            <h1>Pytanie 2. Za jaki film Leonardo DiCaprio dostał Oscara:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice1F" name="film2" value="a">
+                    <label for="answer2Choice1F">Infiltracja.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice2F" name="film2" value="b">
+                    <label for="answer2Choice2F">Jango</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice3F" name="film2" value="c">
+                    <label for="answer2Choice3F">Zjawa</label></div>
+            </div>
+
+            <h1>Pytanie 3. Jak nazywa się druga część filmowej ekranizacji Władcy Pierścieni:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice1F" name="film3" value="a">
+                    <label for="answer3Choice1F">Dwie wieże.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice2F" name="film3" value="b">
+                    <label for="answer3Choice2F">Powró króla</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice3F" name="film3" value="c">
+                    <label for="answer3Choice3F">Drużyna pierścienia</label></div>
+            </div>
+            <h1>Pytanie 4. Ile części miał film Matrix:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice1F" name="film4" value="a">
+                    <label for="answer4Choice1F">1.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice2F" name="film4" value="b">
+                    <label for="answer4Choice2F">4</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice3F" name="film4" value="c">
+                    <label for="answer4Choice3F">3</label></div>
+            </div>
+
+            <h1>Pytanie 5. Ile nominacji do oscarów zdobył Jack Nicholsson:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice1F" name="film5" value="a">
+                    <label for="answer5Choice1F">6</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice2F" name="film5" value="b">
+                    <label for="answer5Choice2F">12</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice3F" name="film5" value="c">
+                    <label for="answer5Choice3F">9</label></div>
+            </div>
+        </div>
+        <div class='music-questions'>
+            <h1>Pytanie 1. Wskaż który utwór jest z gatunku rock:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice1M" name="music1" value="a">
+                    <label for="answer1Choice1M">Adele – Rolling in the Deep</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice2M" name="music1" value="b">
+                    <label for="answer1Choice2M">Czesław Niemen - Sen o Warszawie 1979</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer1Choice3M" name="music1" value="c">
+                    <label for="answer1Choice3M">Monika Brodka - Granda 2010</label></div>
+            </div>
+
+            <h1>Pytanie 2. Której piosenki to słowa: "...Mogłaś być już na dnie / A nie byłaś...":</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice1M" name="music2" value="a">
+                    <label for="answer2Choice1M">Kombi - Słodkiego, miłego życia.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice2M" name="music2" value="b">
+                    <label for="answer2Choice2M">Oddział zamknięty - Party.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer2Choice3M" name="music2" value="c">
+                    <label for="answer2Choice3M">Lady Pank - Kryzysowa narzeczona.</label></div>
+            </div>
+
+            <h1>Pytanie 3. Który zespół zdobył fryderyka w kategorii muzyka rozrywkowa za 2021 rok:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice1M" name="music3" value="a">
+                    <label for="answer3Choice1M">Sanah.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice2M" name="music3" value="b">
+                    <label for="answer3Choice2M">Natalia Kukulska</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer3Choice3M" name="music3" value="c">
+                    <label for="answer3Choice3M">Artur Rojek</label></div>
+            </div>
+            <h1>Pytanie 4. Który z podanych piosenkarzy jest najmłodszy:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice1M" name="music4" value="a">
+                    <label for="answer4Choice1M">Krzysztof Zalewski.</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice2M" name="music4" value="b">
+                    <label for="answer4Choice2M">Ed Sheeran</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer4Choice3M" name="music4" value="c">
+                    <label for="answer4Choice3M">Tom Odell</label></div>
+            </div>
+
+            <h1>Pytanie 5. Który utwór jest najdłuższy:</h1>
+            <div class='grid-mathSelected'>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice1M" name="music5" value="a">
+                    <label for="answer5Choice1M">Nirvana - "Smells like teen spirit".</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice2M" name="music5" value="b">
+                    <label for="answer5Choice2M">AC/DC - "Thunderstruck"</label></div>
+                <div class='answer'>
+                    <input type="radio" id="answer5Choice3M" name="music5" value="c">
+                    <label for="answer5Choice3M">Kansas - "Carry On Wayward Son"</label></div>
+            </div>
+        </div>
+        <button type="button" class="next" onclick="chackedanswermusic5('music5'); chackedanswermusic4('music4'); chackedanswermusic3('music3'); chackedanswermusic2('music2'); chackedanswermusic1('music1'); chackedanswerfilm5('film5'); chackedanswerfilm4('film4'); chackedanswerfilm3('film3'); chackedanswerfilm2('film2'); chackedanswerfilm1('film1'); chackedanswermath1('math1'); chackedanswermath2('math2'); chackedanswermath3('math3'); chackedanswermath4('math4'); chackedanswermath5('math5');" value="Sprawdź">Sprawdź odpowiedzi</button>
+        <div class='grid-mathCorrectAnswers'>
+            <div class='mathCorrectAnswers'>
+                <input id="math1CorrectAnswer" size="40">
+            </div>
+            <div class='mathCorrectAnswers'>
+                <input id="math2CorrectAnswer" size="40">
+            </div>
+            <div class='mathCorrectAnswers'>
+                <input id="math3CorrectAnswer" size="40">
+            </div>
+            <div class='mathCorrectAnswers'>
+                <input id="math4CorrectAnswer" size="40">
+            </div>
+            <div class='mathCorrectAnswers'>
+                <input id="math5CorrectAnswer" size="40">
+            </div>
+        </div>
+        <div class='grid-filmCorrectAnswers'>
+            <div class='filmCorrectAnswers'>
+                <input id="film1CorrectAnswer" size="40">
+            </div>
+            <div class='filmCorrectAnswers'>
+                <input id="film2CorrectAnswer" size="40">
+            </div>
+            <div class='filmCorrectAnswers'>
+                <input id="film3CorrectAnswer" size="40">
+            </div>
+            <div class='filmCorrectAnswers'>
+                <input id="film4CorrectAnswer" size="40">
+            </div>
+            <div class='filmCorrectAnswers'>
+                <input id="film5CorrectAnswer" size="40">
+            </div>
+        </div>
+        <div class='grid-musicCorrectAnswers'>
+            <div class='musicCorrectAnswers'>
+                <input id="music1CorrectAnswer" size="40">
+            </div>
+            <div class='musicCorrectAnswers'>
+                <input id="music2CorrectAnswer" size="40">
+            </div>
+            <div class='musicCorrectAnswers'>
+                <input id="music3CorrectAnswer" size="40">
+            </div>
+            <div class='musicCorrectAnswers'>
+                <input id="music4CorrectAnswer" size="40">
+            </div>
+            <div class='musicCorrectAnswers'>
+                <input id="music5CorrectAnswer" size="40">
+            </div>
+        </div>
+    </main>
+    <footer><a href="mailto:gjaworski.91@wp.pl">
+        Questions? Click here!</a>  </br></br> All rights reserved 2021 &copy; GJVA</footer>
+</body>
+</html>

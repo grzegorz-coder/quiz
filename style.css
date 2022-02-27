@@ -1,0 +1,161 @@
+body
+{
+    background-color: black;
+    color:lightgray;
+    /* For mobile phones */
+    width: 100%;
+    text-align: center;
+    margin:0;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding:0;
+}   
+
+header
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5rem 0;    
+}
+
+header > a 
+{
+    text-decoration: none;
+    color:gold;
+}
+
+header > a:visited
+{
+    color:gold;
+}
+
+footer {
+    padding:1rem;
+}
+footer a {
+    text-decoration: none;
+    color: lightgray;
+    text-transform: uppercase;
+    
+}
+
+ /* memory*/
+
+.gridContainer 
+{
+    display: grid;
+    color:black;
+
+}
+
+h1{
+    width: 70%;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0.5rem;
+    display: block;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+#contactChoice3{
+    text-align: center;
+}
+
+
+.mathSelected {
+   display: block;
+}
+.start{
+    display:none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.categories{
+    display:none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0.5rem;
+
+}
+
+.grid-mathSelected {
+    display: grid;
+    grid-gap: 0.1rem;
+    background-color: black;
+    padding: 0.1rem;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.answer { 
+  background-color: black;
+  border: 1px solid white;
+  padding: 0.1rem;
+  font-size: 16px;
+  text-align: center;
+}
+
+#mySelect {
+    padding:0.2rem;
+}
+.math-questions {
+    display:none;
+}
+.film-questions {
+    display:none;
+}
+.music-questions {
+    display:none;
+}
+.next {
+    display:none;
+}
+.grid-mathCorrectAnswers {
+    display: none;
+    grid-gap: 0.1rem;
+    background-color: black;
+    padding: 0.1rem;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.mathCorrectAnswers {
+    background-color: black;
+    padding: 0.1rem;
+    font-size: 16px;
+    text-align: center; 
+}
+.grid-filmCorrectAnswers {
+    display: none;
+    grid-gap: 0.1rem;
+    background-color: black;
+    padding: 0.1rem;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.filmCorrectAnswers {
+    background-color: black;
+    padding: 0.1rem;
+    font-size: 16px;
+    text-align: center; 
+}
+.grid-musicCorrectAnswers {
+    display: none;
+    grid-gap: 0.1rem;
+    background-color: black;
+    padding: 0.1rem;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.musicCorrectAnswers {
+    background-color: black;
+    padding: 0.1rem;
+    font-size: 16px;
+    text-align: center; 
+}
