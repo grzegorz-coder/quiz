@@ -1,3 +1,4 @@
+//catching elements by ID
 const yourName = document.querySelector(".name");
 const playerName = document.querySelector(".playerName");
 const startGame = document.querySelector(".start");
@@ -25,7 +26,7 @@ const musicgoodAnswer3 = document.getElementById("answer3Choice1M")
 const musicgoodAnswer4 = document.getElementById("answer4Choice2M")
 const musicgoodAnswer5 = document.getElementById("answer5Choice3M")
 
-
+//entering the player's name
 yourName.addEventListener("blur", () => {
     const val = yourName.value;
     val1 = val.toUpperCase();
@@ -36,7 +37,7 @@ yourName.addEventListener("blur", () => {
     startGame.style.display = 'block';
 }
 )
-
+//selecting a category
 startGame.addEventListener("click", () => {
   let x = document.getElementById("mySelect").selectedIndex;
   if (x==0) {
@@ -67,7 +68,7 @@ startGame.addEventListener("click", () => {
     musicCorrectAnswers.style.display = 'none';
   }
 })
-
+//answer choice
 result.addEventListener("click", () => {
   let x = document.getElementById("mySelect").selectedIndex
   if (x==0) {
@@ -90,7 +91,7 @@ result.addEventListener("click", () => {
   }  
   }
 )
-
+//checking the correctness of the answer
 function chackedanswermath1(RadioName) {
     const mathAnswers1 = document.getElementsByName(RadioName)
     for (i = 0; i < mathAnswers1.length; i++) {
